@@ -1,0 +1,141 @@
+header{
+    background-color:dimgray;
+    padding: 10px;
+}
+
+.tituloBtns{
+    color: white;
+}
+
+.img{
+    width: 500px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+table{
+    border: 1px solid;
+    text-align: center;
+    margin-bottom: 50px;
+}
+th{
+    border: 1px solid;
+}
+td{
+    border: 1px solid;
+}
+tr:nth-child(even)
+{
+    background-color: lightgray;
+}
+
+.menu-horizontal{
+    list-style-type: none;
+    text-align: center;
+    background-color: dimgrey;
+    padding: 10px 0px;
+}
+
+.menu-horizontal li{
+    margin: 0 15px;
+    display: inline-block;
+}
+
+.menu-horizontal a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    display: block;
+}
+
+.dropdown-conteudo{
+    display: none;
+    position: absolute;
+    background-color: #333;
+    z-index: 1;
+    color: white;
+}
+
+.dropdown:hover .dropdown-conteudo{
+    display: block;
+}
+
+#about {
+    padding: 0 20px;
+    p {
+        text-align: justify;
+    }
+}
+
+#members-list ul {
+    list-style: none;
+
+    li {
+        margin-bottom: 20px;
+
+        .card {
+            display: flex;
+            align-items: center;
+            gap: 1.8rem;
+
+            padding: 10px;
+            padding-left: 20px;
+            width: 600px;
+            height: 150px;
+
+            .card-info {
+                display: flex;
+                flex-direction: column;
+                gap: 0.4rem;
+
+                font-size: 20px;
+            }
+        }
+
+    }
+}
+
+.card {
+    background-color: aliceblue;
+}
+
+.imgCard {
+    width: 150px;
+    border-radius: 70px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    gap:10rem;
+}
+
+.footer-list {
+    list-style: none;
+    li {
+        display: flex;
+        align-items: center;
+        gap: .3rem;
+
+        margin-bottom: 5px;
+    }
+}
+
+.footer-list li:hover {
+    color: #993399;
+}
+
+#contatos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .3rem;
+}
